@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+        homepage: 'about.md',
+        auto2top: true,
+        loadSidebar: true,
+        maxLevel: 4,
+        relativePath: true,
+
+        //name
+        //name: 'Raw',
+
+        //nav bar
+        // loadNavbar: false,
+        // loadNavbar: 'nav.md',
+
+        //Cover
+        // coverpage: true,
+        // onlyCover: false,
+        // coverpage: 'cover.md',
+
+        //Page
+        pagination: {
+            previousText: 'PREVIOUS',
+            nextText: 'NEXT',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+
+        //Search
+        search: 'auto',
+        search: {
+            paths: [],
+            placeholder: 'Search',
+        },
+
+        //plugins
+        plugins: [
+          function(hook) {
+            var footer = [
+              '<hr/>',
+              '<footer>',
+              '<span>Raw &copy; 2020.</span>',
+              '</footer>'
+            ].join('');
+
+            hook.afterEach(function(html) {
+              return html + footer;
+            });
+          }
+        ]
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-swift.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
