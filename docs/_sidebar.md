@@ -1,3 +1,8 @@
+- 零碎日常
+  - [Wacom数位板体验](wacom.md)
+  - [厨房里的那些事](cooking.md)
+  - [镜头里的故事](photo.md)
+  - [打卡学习](mark.md)
 - Algorithm
   - Dynamic Programming
     - [Overview](dp.md)
@@ -16,7 +21,7 @@
   - DFS
   - Graph
   
-- iOS
+- iOS开发
   - [构建一个优雅的NavVC]()
   - [Runloop学习](runloop.md)
   - [Runtime学习](runtime.md)
