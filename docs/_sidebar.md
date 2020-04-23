@@ -30,7 +30,7 @@
 - 计算机技术
   - [KB、Kb和M的关系](Computer/kb.md)
 
-- 直播技术学习
+- 流媒体学习
   - [音视频基本知识](media-summary.md)
   - [音视频编码](media-coding.md)
   - [FFmpeg使用说明](streaming.md)
