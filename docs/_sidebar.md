@@ -1,4 +1,5 @@
 - 零碎日常
+  - [About](about.md)
   - [Wacom数位板体验](wacom.md)
   - [厨房里的故事](cooking.md)
   - [镜头里杂七杂八](photo.md)
@@ -33,7 +34,7 @@
   - [Cocoapods](cocopods.md)
 
 - 计算机技术
-  - [KB、Kb和M的关系](Computer/kb.md)
+  - [KB、Kb和M的关系](kb.md)
 
 - 流媒体学习
   - [音视频基本知识](media-summary.md)
