@@ -12,7 +12,7 @@
     - [Subsequence](Subsequences.md)
     - [Drop Egg](SuperEggDrop.md)
     - [KMP](kmp.md)
-  - Backtrace
+
   - Binary Search Tree
   - Double Pointer
   - Sliding Window
