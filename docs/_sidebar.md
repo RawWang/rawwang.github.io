@@ -3,7 +3,7 @@
   - [Wacom数位板体验](wacom.md)
   - [厨房里的故事](cooking.md)
   - [镜头里杂七杂八](photo.md)
-  - [打卡学习](mark.md)
+  - [英语打卡学习](mark.md)
 - Algorithm
   - Dynamic Programming
     - [Overview](dp.md)
