@@ -66,7 +66,9 @@ func robHelp(_ nums: [Int], _ start: Int, _ end: Int) -> Int {
 至此，环形房屋的问题也就得以解决。
 
 ## 二叉树房屋
+
 问题改为，每个房屋都在二叉树的结点上，不能对相连的房屋进行打劫。
+
 ![](images/case2.png)
 
 ### 代码实现
@@ -79,7 +81,7 @@ fun dp(_ root: TreeNode) -> Int {
         return 0
     }
     
-    //减枝
+    //剪枝
     if memo.contains(root) {
         return memo[root];
     }

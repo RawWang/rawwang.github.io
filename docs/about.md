@@ -4,8 +4,15 @@
 
 !> Blog又双叒叕搬家啦!!!(哦,不对...是又整容了
 
+弃了之前的`Hexo + Github`，主要原因是因为`deploy`对我而言有点偏重，不够灵巧。
 
-在日常工作中遇到的难题,往往都是翻阅大量文档来解决,因为懒惰,没怎么认真地总结下问题,导致时间长了,很多问题的解决思路都忘的一干二净.这个习惯真的很坏,因此打算以写博客的形式来记录下,希望能坚持下去...
+目前使用`Docsify + Github`来构建自己的博客和发布，两个字形容，`I'm fine`！
+
+`Docsify`官方称采用`Generate your documentation website on the fly`，听起来很吊的样子，其实也和`VUE` `Hexo`类似，通过解析`MD`后构建`Dom`树最终生成一个静态的`Html`。
+
+> Unlike GitBook, docsify does not generate static html file.
+
+这就是`Docsify`迷上我的根本原因，`Repositories`的文件目录就十分清爽，这谁受得了呀！
 
  
 

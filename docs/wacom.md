@@ -37,18 +37,26 @@
 2. **Inkspace：**Wacom官方的一个专用素描绘画类的应用，非常喜欢它的设计风格，只是满足不了我的需求。
 3. **Onenote：**目前在使用，MS家的一款功能十足应用。
 
+!> Inkspace 让我有个开发Mac App的想法，基于它本身，再加入些满足我个人需求的功能，感觉将会变得很Cool！
+
+
 ### OneNote
-![](images/onenote.png)
+<center>
+    <img src="images/onenote.png" width="40%">
+</center>
 
 ### Xournal
-![](images/Xournal.png)
+<center>
+    <img src="images/Xournal.png" width="40%">
+</center>
 
 ### Inkspace
-![](images/Inkspace.png)
+<center>
+    <img src="images/Inkspace.png" width="40%">
+</center>
 
 ## 最后
 希望能把它变成生产工具，而不是一时的冲动消费！
 
-!> Inkspace 让我有了一个开发Mac App的想法，基于它本身，再加入些满足我个人需求的功能，感觉将会变得很Cool！
 
 
