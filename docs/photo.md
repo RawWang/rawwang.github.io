@@ -9,7 +9,7 @@
 总的来说，兴趣爱好是非常值得培养的，同时作为`Soft Skill`对自己也会有很大的帮助。
 
 ### 生活总要有点期待
-![](images/album/life.JPG)
+![](images/album/life.jpg)
 
 
 > **很喜欢夏天的蓝**
