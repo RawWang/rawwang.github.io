@@ -22,7 +22,7 @@
 <iframe 
     width="800" 
     height="450" 
-    src="/images/wacom.mov"
+    src="images/wacom.mov"
     frameborder="0" 
     allowfullscreen>
 </iframe>
