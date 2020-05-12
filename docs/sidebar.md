@@ -5,6 +5,7 @@
   - [厨房里的故事](cooking.md)
   - [镜头里杂七杂八](photo.md)
   - [英语打卡学习](mark.md)
+  - [瞎拍合集](live.md)
 - Algorithm
   - Dynamic Programming
     - [Overview](dp.md)
