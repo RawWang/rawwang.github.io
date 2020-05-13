@@ -39,7 +39,7 @@
 
 ### 问题分析
 
-当**setNavigationBarHidden**的`animated`设置为True时，如果两个VC在`Window`里同时出现时，那么这两个VC在`viewWillAppear`和`viewWillDisappear`中对**NavigationBar**进行设置隐藏或显示的动作也将都会显示在`Window`中了。
+当**setNavigationBarHidden**的`animated`设置为True时，如果两个VC在`Window`里同时出现时，那么这两个VC在`viewWillAppear`和`viewWillDisappear`中对**NavigationBar**进行设置隐藏或显示的动作也将都会被捕捉到，从而引发这两个问题。
 
 例如：在`ThirdVC`里侧滑手指左右拖动时，`ThirdVC`和`SecondVC`同时显示在当前窗口中，就会出现问题2的现象。
 造成问题1的原因也是大致如此。
