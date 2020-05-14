@@ -29,8 +29,8 @@
 
 - 技术归档
   - [KB、Kb和M的关系](kb.md)
-  - [Markdown清单](markdown.md)
-  - [Git的使用说明](git.md)
+  - [Markdown语法清单](markdown.md)
+  - [Git常用命令](git.md)
 
 - 流媒体学习
   - [音视频基本知识](media-summary.md)
