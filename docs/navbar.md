@@ -9,7 +9,7 @@
 
 ![](images/iOS/architecture.png)
 
-* 应用采用`NavigationViewContoller`
+* 根视图为`NavigationViewContoller`
 * **RootVC** 需要隐藏导航栏
 * **SecondVC** `Push`跳转，显示导航栏
 * **SecondVC** `Push`跳转，显示导航栏
@@ -39,14 +39,14 @@
 
 ### 问题分析
 
-当**setNavigationBarHidden**的`animated`设置为True时，如果两个VC在`Window`里同时出现时，那么这两个VC在`viewWillAppear`和`viewWillDisappear`中对**NavigationBar**进行设置隐藏或显示的动作也将都会被捕捉到，从而引发这两个问题。
+如果两个VC在`Window`里同时出现时，那么这两个VC在`viewWillAppear`和`viewWillDisappear`中对**NavigationBar**进行设置隐藏或显示的动作也将都会被捕捉到，从而引发这两个问题。
 
 例如：在`ThirdVC`里侧滑手指左右拖动时，`ThirdVC`和`SecondVC`同时显示在当前窗口中，就会出现问题2的现象。
 造成问题1的原因也是大致如此。
 
 ### 解决方案
 
-知道了原因所在，那么就可以对症下药了。也就是当两个VC都出现时，采用互斥的方式，只响应一个VC的设置方法，问题自然而解了。
+知道了原因所在，那么就可以对症下药了。也就是当两个VC都出现时，只响应那个会出现在当前`Window`的VC,问题自然而解了。
 
 ?> UINavigationControllerDelegate 这个就是关键所在
 
@@ -109,7 +109,7 @@
 ### 问题扩展
 
 1. 当我们隐藏导航栏后，会造成**侧滑返回**手势失效
-2. 如果页面里横向滑动的`ScrollView`,那么**侧滑手势**将会和**ScrollView**的滑动冲突。
+2. 如果页面里有水平滑动的`ScrollView`,那么**侧滑返回**将会和**ScrollView**的滑动冲突。
 
 ### 解决办法
 
