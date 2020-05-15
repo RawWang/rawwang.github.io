@@ -24,12 +24,13 @@
   - [优雅的NavigationBar](navbar.md)
   - [Runloop学习](runloop.md)
   - [Runtime学习](runtime.md)
+  - [iOS中weak用法](point.md)
   - [关联对象的使用](associate.md)
   - [KVO的底层实现原理](kvo.md)
 
 - 技术归档
   - [KB、Kb和M的关系](kb.md)
-  - [Markdown语法清单](markdown.md)
+  - [Markdown格式清单](markdown.md)
   - [Git常用命令](git.md)
 
 - 流媒体学习
