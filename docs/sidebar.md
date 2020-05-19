@@ -26,7 +26,9 @@
   - [Runtime学习](runtime.md)
   - [iOS中weak用法](point.md)
   - [关联对象的使用](associate.md)
-  - [KVO的底层实现原理](kvo.md)
+  - [KVO底层学习](kvo.md)
+  - [KVO手动实现](kvo2.md)
+  - [KVO进阶应用](kvo3.md)
 
 - 技术归档
   - [KB、Kb和M的关系](kb.md)
