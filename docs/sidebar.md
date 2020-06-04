@@ -7,28 +7,36 @@
   - [英语打卡学习](mark.md)
   - [瞎拍合集](live.md)
 - 算法学习
+  - 数据结构学习
+    - [迭代和递归](traverse.md)
+    - [二叉树学习](binary.md)
   - 动态规划
     - [Overview](dp.md)
     - [Edit Distance](EditDistance.md)
     - [Stock Question](Stock.md)
     - [House Robber](HouseRobber.md)
     - [Subsequence](Subsequences.md)
-    - [Drop Egg](SuperEggDrop.md)
+    <!-- - [Drop Egg](SuperEggDrop.md) -->
     <!-- - [KMP](kmp.md) -->
-  - 双指针与滑动窗口
-  - 单调栈和单调队列
-  - 二分查找
-  - 树的相关学习
   
-- iOS开发
+  <!-- - 双指针与滑动窗口
+  - 单调栈和单调队列
+  - 二分查找 -->
+  
+  
+- iOS
   - [优雅的NavigationBar](navbar.md)
   - [Runloop学习](runloop.md)
   - [Runtime学习](runtime.md)
   - [iOS中weak用法](point.md)
-  - [关联对象的使用](associate.md)
   - [KVO底层学习](kvo.md)
   - [KVO手动实现](kvo2.md)
   - [KVO进阶应用](kvo3.md)
+
+- Android
+  - [Gradle学习](gradle.md)
+  - [Launcher开发](launcher.md)
+
 
 - 技术归档
   - [KB、Kb和M的关系](kb.md)
