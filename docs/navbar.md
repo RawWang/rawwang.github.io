@@ -12,7 +12,7 @@
 * 根视图为`NavigationViewContoller`
 * **RootVC** 需要隐藏导航栏
 * **SecondVC** `Push`跳转，显示导航栏
-* **SecondVC** `Push`跳转，显示导航栏
+* **ThirdVC** `Push`跳转，显示导航栏
 * **PresentVC** `Modal`视图，显示导航栏
 
 ### 隐藏和显示
