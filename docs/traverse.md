@@ -12,7 +12,7 @@
 
 ```Python
 def traverseLinkedList(head: ListNode):
-    while not head:
+    while head:
         head = head.next
         # Do Something
 ```
