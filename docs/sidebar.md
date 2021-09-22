@@ -2,10 +2,9 @@
   - [About](about.md)
   - [Tomato Work](tomato.md)
   - [Wacom数位板体验](wacom.md)
-  - [厨房里的故事](cooking.md)
-  - [镜头里杂七杂八](photo.md)
+  <!-- - [镜头里杂七杂八](photo.md) -->
   - [英语打卡学习](mark.md)
-  - [瞎拍合集](live.md)
+  <!-- - [瞎拍合集](live.md) -->
 - 算法学习
   - 数据结构学习
     - [迭代和递归](traverse.md)
@@ -36,7 +35,7 @@
 - Android
   - [Gradle学习](gradle.md)
   - [Launcher开发](launcher.md)
-
+  - [Junit学习](junit.md)
 
 - 技术归档
   - [KB、Kb和M的关系](kb.md)
